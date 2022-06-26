@@ -1,4 +1,4 @@
-window.document.addEventListener('load', function(){
+
     const $btnSignIn= document.querySelector('.sign-in-btn'),
       $btnSignUp = document.querySelector('.sign-up-btn'),  
       $signUp = document.querySelector('.sign-up'),
@@ -9,5 +9,4 @@ window.document.addEventListener('load', function(){
         $signIn.classList.toggle('active');
         $signUp.classList.toggle('active')
     }
-});
 });
