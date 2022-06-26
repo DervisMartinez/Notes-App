@@ -44,4 +44,5 @@ body{
     color: var(--color-gray-900);
     overflow-x: hidden;
     background: var(--color-bg);
+    font-size: 0.9rem;
 }
