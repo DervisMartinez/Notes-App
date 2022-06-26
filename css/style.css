@@ -55,7 +55,7 @@ body{
 
 section{
     margin-top:3rem;
-    width:100vh;
+    width:100vw;
 }
 
 h1,h2,h3,h4,h5{
@@ -96,10 +96,10 @@ img{
 
 nav{
     background: var(--color-primary);
-    width: 100vh;
+    width: 100vw;
     height: 4.5em;
     position: fixed;
-    top: 1;
+    top: 0;
     z-index: 10;
     box-shadow: 0 1rem 1rem rgba(0,0,0, 0.2);
 }
@@ -114,4 +114,8 @@ nav button{
     display:flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.avatar{
+    width: 3rem;
 }
