@@ -1,5 +1,5 @@
 :root{
-    --color-primary:#6f6af8; 
+    --color-primary:#191965; 
     --color-primary-light:hsla(242,91%,69,18%);
     --color-primary-variant: #5854c7;
     --color-red: #da0f3f;
@@ -41,7 +41,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    color: var(--color-gray-900);
+    color: var(--color-gray-200);
     overflow-x: hidden;
     background: var(--color-bg);
     font-size: 0.9rem;
@@ -169,4 +169,17 @@ nav button{
 .nav__profile ul li:last-child() a{
     background: var(--color-red);
     color: var(--color-bg);
+}
+
+/*============================================ 1 era nota =========================================================================*/
+
+.category__button{
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: var(--card-border-radius-2);
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
 }
