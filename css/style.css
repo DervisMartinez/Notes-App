@@ -183,3 +183,7 @@ nav button{
     font-size: 0.8rem;
     text-align: center;
 }
+
+.category__button:hover{
+    color:var(--color-white);
+}
