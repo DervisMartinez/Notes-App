@@ -198,6 +198,34 @@ nav button{
 
 .post:hover .post__thumbnail img{
     filter: saturate(0);
-    transform:filter 500ms ease;
+    transition:filter 500ms ease;
 }
 
+.post__author {
+    display:flex;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.post__author-avatar{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: var(--card-border-radius-3);
+    overflow: hidden;
+}
+
+/*============================================ Featured =========================================================================*/
+.featured {
+    margin-top: 8rem;
+}
+
+.featured__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.featured .post__thumbnail{
+    height: fit-content;
+
+}
