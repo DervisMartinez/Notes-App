@@ -190,8 +190,14 @@ nav button{
 /*============================================ nota en general =========================================================================*/
 
 .post__thumbnail{
-    border-radius: var(--card-border-radius-5);
+    border-radius: var(--card-border-radius-5) 0;
     border:1rem solid var(--card-border-radius-1);
     overflow: hidden;
     margin-bottom: 1.6rem;
 }
+
+.post:hover .post__thumbnail img{
+    filter: saturate(0);
+    transform:filter 500ms ease;
+}
+
