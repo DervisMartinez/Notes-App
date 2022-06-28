@@ -201,13 +201,13 @@ nav button{
     transition:filter 500ms ease;
 }
 
-.post__author {
+.note__author {
     display:flex;
     gap: 1rem;
     margin-top: 1.2rem;
 }
 
-.post__author-avatar{
+.note__author-avatar{
     width: 2.5rem;
     height: 2.5rem;
     border-radius: var(--card-border-radius-3);
@@ -227,5 +227,4 @@ nav button{
 
 .featured .post__thumbnail{
     height: fit-content;
-
 }
