@@ -228,3 +228,10 @@ nav button{
 .featured .post__thumbnail{
     height: fit-content;
 }
+/*=======================================================================================================================*/
+.post__container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 5rem;
+    margin-top:5rem ;
+}
