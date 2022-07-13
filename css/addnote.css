@@ -1,3 +1,6 @@
+/* ===== Google Font Import - Poformsins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +11,7 @@
 .forms{
     display: flex;
     align-items: center;
+    align-content: space-between;
     height: 440px;
     width: 200%;
     transition: height 0.2s ease;
@@ -15,26 +19,26 @@
 .form{
     width: 50%;
     padding: 30px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     transition: margin-left 0.18s ease;
 }
-.container.active .login{
+.formulario .active .login{
     margin-left: -50%;
     opacity: 0;
     transition: margin-left 0.18s ease, opacity 0.15s ease;
 }
-.container .signup{
+.formulario .signup{
     opacity: 0;
     transition: opacity 0.09s ease;
 }
-.container.active .signup{
+.formulario .active .signup{
     opacity: 1;
     transition: opacity 0.2s ease;
 }
-.container.active .forms{
+.formulario .active .forms{
     height: 600px;
 }
-.container .form .title{
+.formulario .form .title{
     position: relative;
     font-size: 27px;
     font-weight: 600;
@@ -46,7 +50,7 @@
     bottom: 0;
     height: 3px;
     width: 30px;
-    background-color: #4070f4;
+    background-color: #1942b4;
     border-radius: 25px;
 }
 .form .input-field{
@@ -63,18 +67,18 @@
     border: none;
     outline: none;
     font-size: 16px;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1.5px solid #ccc;
     border-top: 2px solid transparent;
     transition: all 0.2s ease;
 }
 .input-field input:is(:focus, :valid){
-    border-bottom-color: #4070f4;
+    border-bottom-color: #0d225d;
 }
 .input-field i{
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
-    color: #999;
+    color: rgb(6, 8, 40);
     font-size: 23px;
     transition: all 0.2s ease;
 }
@@ -124,7 +128,7 @@
     font-weight: 500;
     letter-spacing: 1px;
     border-radius: 6px;
-    background-color: #4070f4;
+    background-color: #061337;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -133,6 +137,10 @@
 }
 
 .form .login-signup{
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;
+}
+
+.title{
+    color:#000;
 }

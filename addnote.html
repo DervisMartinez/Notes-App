@@ -42,25 +42,24 @@
             </ul>
         </div>
     </nav>
-
     <!-- =================-->
-    <div class=formulario">
+       <div class="formulario">
         <div class="forms">
             <div class="form login">
                 <span class="title">Insert Note</span>
 
-                <form action="#">
+                <form action="http://localhost:3001/notes/new-note/" method="post">
                     <div class="input-field">
-                        <input type="text" placeholder="Enter your Tittle" required>pm
+                        <input type="text" placeholder="Enter your Tittle" id="tittle" required>
                     </div>
                     <div class="input-field">
-                        <input type="text" class="text" placeholder="Enter your Note" required>
+                        <input type="text" class="text" placeholder="Enter your Note"  id="note" required>
                     </div>
 
-                    
+                    s
                     <div class="input-field button">
-                        <input type="button" value="guardar">
-                    </div>
+                        <input type="submit"  id="guardar" value="guardar"> 
+                    </div> 
                 </form>
 
           </div>

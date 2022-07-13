@@ -12,7 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4070f4;
+    background:linear-gradient(to left, #344269,rgb(61, 20, 20))
 }
 .container{
     position: relative;
@@ -65,7 +65,7 @@ body{
     bottom: 0;
     height: 3px;
     width: 30px;
-    background-color: #4070f4;
+    background-color: #02091b;
     border-radius: 25px;
 }
 .form .input-field{

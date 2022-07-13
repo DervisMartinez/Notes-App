@@ -202,7 +202,6 @@ nav button{
     transition:filter 500ms ease;
 }
 
-
 .note__author {
     display:flex;
     gap: 1rem;
@@ -233,7 +232,7 @@ nav button{
 /*=======================================================================================================================*/
 .post__container{
     display: grid;
-    grid-template-columns: repeat(3 ,1fr);
-    gap: 5rem;
-   margin-bottom:5rem ;
+    grid-template-columns: repeat(2 ,2fr);
+    gap: 4rem;
+   margin-bottom:3rem ;
 }
