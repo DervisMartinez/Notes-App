@@ -1,8 +1,10 @@
 const URL = "http://localhost:5000/users/login";
 
+
+
 var inicioDeSesion = document.getElementById('form_l');
 
-inicioDeSesion.addEventListener('submit',function(e){
+export default inicioDeSesion.addEventListener('submit',function(e){
     e.preventDefault()
     console.log("me has dado click");
   
@@ -28,12 +30,14 @@ inicioDeSesion.addEventListener('submit',function(e){
           .then(res => res.json())
           .then(data => {
             console.log(data)
-            //localStorage.setItem("token",data)
+            localStorage.setItem("Token",JSON.stringify(data))
+            
           })
       }
     )()
   
 
     console.log(data.get("pass"));
+
 
 })

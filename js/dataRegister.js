@@ -29,23 +29,5 @@ formulario.addEventListener('submit', function (e) {
     }
   )()
 
-  alert("se esta procesando sus datos por favor aguarde un momento");
-  const $response =document.querySelector(".loader-form-response");
-
-    $response.classList.remove("none");
-
-    setTimeout(()=>{
-      
-      $form.reset();
-
-        setTimeout(() => $response.classList.add("none"),3000);
-
-    },3000);
-
-
-
-
-
-  localStorage.clear()
+  //localStorage.setItem()
 })
-
