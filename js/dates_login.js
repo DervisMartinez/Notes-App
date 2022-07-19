@@ -4,7 +4,7 @@ const URL = "http://localhost:5000/users/login";
 
 var inicioDeSesion = document.getElementById('form_l');
 
-export default inicioDeSesion.addEventListener('submit',function(e){
+inicioDeSesion.addEventListener('submit',function(e){
     e.preventDefault()
     console.log("me has dado click");
   
